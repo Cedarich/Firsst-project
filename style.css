@@ -1,0 +1,159 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "poppins", sans-serif;
+}
+
+
+.navbar{
+    margin: 0px;
+    margin-left: 50px;
+    padding: 10px;
+    
+
+
+}
+.navdiv {
+    display:flex;
+    justify-content: space-between;
+    padding: 0px;
+    text-align: right;
+    margin-right: 50px;
+    
+    
+}
+
+ul{
+    margin-right: 0px;
+
+}
+   
+    
+li{
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+
+    
+
+}
+li a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    /* font-weight: bold; */
+    display: block;
+   
+
+}
+li a:hover{
+    color: #ff3d00;
+    font-weight: bold;
+}
+.mybutton{
+    background-color:#ff3d00;
+    /* border-color: #ffffff; */
+    border: solid 1px #ffffff;
+    color: white;
+    width: 80px;
+    height: 40px;
+    font-size: 12px;
+    border-radius: 10px;
+    position: relative;
+   cursor: pointer;
+    
+
+}
+
+.logo{
+    
+    width: 14em;
+    height: auto;
+    margin-right: auto;
+    padding: 20px;
+   
+    
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(IMG-20240507-WA0062.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+    background-position: center;
+    position: relative;
+}
+
+.content {
+    width: 100%;
+}
+
+.content h1{
+    text-align: center;
+    text-decoration: line;
+    color: white;
+    justify-content: space-between;
+    margin-top: 120px;  
+    font-size: 50px;
+    font-weight: 600px;
+    
+}
+
+
+
+
+.content form{
+    background-color: white;
+    width: 60%;
+    height: 50px;
+    margin-left: 250px;
+    margin-top: 50px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+
+
+}
+
+
+.form-input {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.form-input button {
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    border: none;
+    background-color: #ff3d00;
+    border-color: #ff3d00;
+    color: #fff;
+    font-size: 0.8em;
+}
+
+.form-input input {
+    height: 40px;
+    width: 150px;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+}
+
+
+
+
+ 
+
+   
+
